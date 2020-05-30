@@ -1,5 +1,4 @@
 # Predict-NBA-Player-Position-Random-Forest
-Uses Random Forest to predict NBA players' positions
 
 This was a research project conducted by my group member (Shadi Chamseddine) and I for our STAT 5703 W Data Mining course.
 
