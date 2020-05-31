@@ -1,6 +1,6 @@
 # Predict-NBA-Player-Position-Random-Forest
 
-This was a research project conducted by my group member (Shadi Chamseddine) and I for our STAT 5703 W Data Mining course.
+This was a research project conducted by my group member ([Shadi Chamseddine](https://github.com/ShadoC3)) and I for our STAT 5703 W Data Mining course.
 
 We use a Random Forest model to predict an NBA player’s position based solely on their in-game statistics. Our data is NBA player-level game statistics from the 1982 season to the 2019 season inclusive from Basketball-Reference.com. The 1982 season was chosen as our starting point because it was the earliest season in which all the relevant data variables for our analysis began being tracked and collected by the NBA. The dataset is then fed into the Random Forest model with default parameters to identify the most important variables to the model. Variable importance is determined by the mean decrease Gini for each variable. Since the number of variables is very large, we run the Random Forest model again using only the most important variables from the first run, which we identify by boosting our variable set. We reduce the dimensions by keeping only the top 50% most important variables, which we later use as the parameters in our refined 4 models. 
 
